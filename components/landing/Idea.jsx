@@ -16,7 +16,10 @@ const Idea = () => {
             Great ideas deserve to become great products
           </p>
         </div>
+        {/* Shaya - White images should be smaller */}
+        {/* Shaya - There is a bug with the first image, it wont reduce in size, when width: 100% is added*/}
         <div className="flex justify-center xl:justify-between items-center gap-1 w-full">
+
           <Image src={"/idea-img.png"} width={350} height={340} alt="...." />
           <div className="xl:block hidden">
             <Image src={"/idea-img.png"} width={350} height={340} alt="...." />
@@ -26,20 +29,20 @@ const Idea = () => {
           </div>
         </div>
         <div className="flex justify-start items-start flex-col gap-5 ">
-          <p className="text-base sm:text-xl xl:text-[26px] font-medium text-white">
+          <p className="text-base sm:text-xl  font-medium text-white">
             Creating a startup is a journey full of challenges, but we{"'"}re
             here to guide you every step of the way.
           </p>
-          <p className="text-base sm:text-xl xl:text-[26px] font-medium text-white">
+          <p className="text-base sm:text-xl  font-medium text-white">
             Our team will work with you to understand your users needs so we can
             build a solid, scalable, and reliable product for you.
           </p>
-          <p className="text-base sm:text-xl xl:text-[26px] font-medium text-white">
+          <p className="text-base sm:text-xl  font-medium text-white">
             We{"'"}ve seen firsthand the impact that a well-executed MVP can
             have on a business, and our team is committed to helping you achieve
             that same success.
           </p>
-          <p className="text-base sm:text-xl xl:text-[26px] font-medium text-white">
+          <p className="text-base sm:text-xl  font-medium text-white">
             Here is how….
           </p>
         </div>
