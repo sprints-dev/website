@@ -46,7 +46,7 @@ export default function Home() {
           Book a Call
         </h2>
         <p className="text-base sm:text-xl  text-white font-medium">
-          Let's talk
+          Let{"'"}s talk
         </p>
       </div>
       <Book />
