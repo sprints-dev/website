@@ -80,14 +80,14 @@ const Software = () => {
           <p className="text-white text-base sm:text-lg max-w-[1000px] text-center font-medium">
             We do <strong>MVP development</strong> in phases, called
             <strong>
-              {'"'}sprints{'"'}
+            {" "}{'"'}sprints{'"'}
             </strong>
             .
           </p>
           <p className="text-white text-base sm:text-lg  max-w-[1000px] text-center font-medium">
             Each sprint lasts <strong>4 weeks</strong>, with a{" "}
             <strong>sprint review</strong>
-            afterwards.
+            {" "}afterwards.
           </p>
           <p className="text-white text-base sm:text-lg  max-w-[1000px] text-center font-medium">
             The average <strong>MVP Development</strong> takes{" "}
