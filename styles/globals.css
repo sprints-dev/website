@@ -15,7 +15,7 @@
     @apply flex w-[95%] max-w-[1550px];
   }
   .bookBtn {
-    @apply grid bg-red  text-white font-bold text-base mt-5 rounded-[14px] px-7 sm:px-10 h-[60px]  place-items-center border-2 border-solid hover:border-white border-transparent  transition-all duration-300;
+    @apply grid bg-red  text-white font-bold text-base mt-5 rounded-[14px] px-7 py-4 sm:px-10 h-[60px]  place-items-center border-2 border-solid hover:border-white border-transparent  transition-all duration-300;
   }
 }
 body::-webkit-scrollbar {
