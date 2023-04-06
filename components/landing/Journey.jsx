@@ -33,7 +33,7 @@ const Journey = () => {
           </div>
           <div className="xl:block hidden"></div>
           <div className="flex xl:m-0 mb-5 justify-start items-center flex-col w-full gap-5 text-center">
-            <div className="w-full h-auto sm:h-[250px] flex justify-center items-start">
+            <div className="w-full h-auto  flex justify-center items-start">
               <Image style={{ maxWidth: '60%' }} src={"/dev1.png"} alt="...dev" width={1000} height={1000} />
             </div>
             <div>
@@ -58,7 +58,7 @@ const Journey = () => {
             </svg>
           </div>
           <div className="flex xl:m-0 mb-5 justify-start items-center flex-col w-full gap-5 text-center">
-            <div className="w-full h-auto sm:h-[250px] flex justify-center items-start">
+            <div className="w-full h-auto  flex justify-center items-start">
               <Image style={{ maxWidth: '35%' }} src={"/dev2.png"} alt="...dev" width={1000} height={1000} />
             </div>
             <div>
@@ -74,7 +74,7 @@ const Journey = () => {
             </div>
           </div>
           <div className="flex justify-start items-center flex-col w-full gap-5 text-center">
-            <div className="w-full h-auto sm:h-[250px] flex justify-center items-start">
+            <div className="w-full h-auto  flex justify-center items-start">
               <Image style={{ maxWidth: '60%' }} src={"/dev3.png"} alt="...dev" width={1000} height={1000} />
             </div>
             <div>
@@ -88,7 +88,7 @@ const Journey = () => {
           </div>
           <div style={{ width: '85%', justifySelf: 'center' }} className="bg-[#172651] w-full h-[1px] xl:block hidden mb-[50px] mt-[80px] col-span-3"></div>
           <div className="flex justify-start items-center flex-col w-full gap-5 text-center">
-            <div className="w-full h-auto sm:h-[250px] flex justify-center items-start">
+            <div className="w-full h-auto  flex justify-center items-start">
               <Image style={{ maxWidth: '60%' }} src={"/dev4.png"} alt="...dev" width={1000} height={1000} />
             </div>
             <div>
@@ -101,7 +101,7 @@ const Journey = () => {
             </div>
           </div>
           <div className="flex justify-start items-center flex-col w-full gap-5 text-center">
-            <div className="w-full h-auto sm:h-[250px] flex justify-center items-start">
+            <div className="w-full h-auto  flex justify-center items-start">
               <Image style={{ maxWidth: '60%' }} src={"/dev5.png"} alt="...dev" width={1000} height={1000} />
             </div>
             <div>
@@ -114,7 +114,7 @@ const Journey = () => {
             </div>
           </div>
           <div className="flex justify-start items-center flex-col w-full gap-5 text-center">
-            <div className="w-full h-auto sm:h-[250px] flex justify-center items-start">
+            <div className="w-full h-auto  flex justify-center items-start">
               <Image style={{ maxWidth: '60%' }} src={"/dev6.png"} alt="...dev" width={1000} height={1000} />
             </div>
             <div>

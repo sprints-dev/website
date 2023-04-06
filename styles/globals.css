@@ -58,3 +58,6 @@ html {
     right: 0rem !important;
   }
 }
+.shadow-selectedTime {
+  box-shadow: "0px 4px 10px 0px rgba(48,71,141,1)";
+}
