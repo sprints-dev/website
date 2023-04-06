@@ -5,8 +5,8 @@ const Footer = () => {
     <div style={{ width: '98%' }} className="wrapper py-14">
       <div style={{ width: '80%' }} className="contain lg:flex-row flex-col justify-between items-stretch gap-7">
         <div className="flex justify-start items-center flex-col text-center gap-5">
-          <div className="relative w-[150px] sm:w-[180px] lg:w-[212px] h-[200px] sm:h-[220px] lg:h-[257px]">
-            <Image style={{ width: '10vw' }} alt="..." src="/logo-big.png" width={1000} height={1000} />
+          <div className="relative w-[150px] sm:w-[180px] lg:w-[140px]">
+            <Image alt="..." src="/logo-big.png" width={1000} height={1000} />
           </div>
           <p className="text-md xl:text-lg font-medium text-white">
             Copyright © 2023 Sprints LLC - All Rights Reserved
