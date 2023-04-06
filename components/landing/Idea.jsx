@@ -18,28 +18,28 @@ const Idea = () => {
         </div>
         <div className="flex justify-center xl:justify-between items-center gap-1 w-90">
           <div className="lg:block hidden">
-            <Image style={{maxWidth: '80%'}} src={"/idea-img.png"} width={350} height={340} alt="...." />
+            <Image style={{ maxWidth: '80%' }} src={"/idea-img.png"} width={350} height={340} alt="...." />
           </div>
           <div className="lg:block hidden">
-            <Image style={{maxWidth: '80%'}} src={"/idea-img.png"} width={350} height={340} alt="...." />
+            <Image style={{ maxWidth: '80%' }} src={"/idea-img.png"} width={350} height={340} alt="...." />
           </div>
           <div className="lg:block hidden">
-            <Image style={{maxWidth: '80%'}} src={"/idea-img.png"} width={350} height={340} alt="...." />
+            <Image style={{ maxWidth: '80%' }} src={"/idea-img.png"} width={350} height={340} alt="...." />
           </div>
         </div>
         <div className="flex justify-start items-start flex-col gap-5 px-10 md:px-20 lg:px-44">
           <p className="text-base sm:text-lg  font-medium text-white">
-            Creating a startup is a journey full of challenges, but we{"'"}re
+            <strong>Creating a startup</strong> is a journey full of challenges, but we{"'"}re
             here to guide you every step of the way.
           </p>
           <p className="text-base sm:text-lg  font-medium text-white">
             Our team will work with you to understand your users needs so we can
-            build a solid, scalable, and reliable product for you.
+            build a <strong>solid, scalable, and reliable product</strong> for you.
           </p>
           <p className="text-base sm:text-lg  font-medium text-white">
-            We{"'"}ve seen firsthand the impact that a well-executed MVP can
+            We{"'"}ve seen firsthand the impact that a <strong>well-executed MVP</strong> can
             have on a business, and our team is committed to helping you achieve
-            that same success.
+            that <strong>same success.</strong>
           </p>
           <p className="text-base sm:text-lg  font-medium text-white">
             Here is how….
