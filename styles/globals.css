@@ -12,15 +12,24 @@
     @apply flex justify-start items-center flex-col w-full;
   }
   .contain {
-    @apply flex w-[90%] max-w-[1550px];
+    @apply flex w-[95%] max-w-[1550px];
   }
   .bookBtn {
-    @apply grid bg-red hover:text-red text-white font-bold text-base mt-5 rounded-[14px] px-7 sm:px-10 h-[60px]  place-items-center border-2 border-solid border-red hover:bg-transparent transition-all duration-300;
+    @apply grid bg-red  text-white font-bold text-base mt-5 rounded-[14px] px-7 sm:px-10 h-[60px]  place-items-center border-2 border-solid hover:border-white border-transparent  transition-all duration-300;
   }
+}
+body::-webkit-scrollbar {
+  width: 0.7vw;
+  background-color: rgba(0, 0, 0, 0.1);
+}
+
+body::-webkit-scrollbar-thumb {
+  background-color: var(--background--color);
+  border: 2px solid #fff;
+  border-radius: 100vw;
 }
 html {
   scroll-behavior: smooth;
-  scroll-padding-block: 130px;
 }
 .splide__arrow {
   opacity: 1 !important;
@@ -30,22 +39,22 @@ html {
   fill: #263254 !important;
 }
 .splide__arrow--prev {
-  left: initial !important;
-  right: 100%;
+  left: 0 !important;
+  transform: translate(-50%, -50%) !important;
 }
 .splide__arrow--next {
-  right: initial !important;
-  left: 100%;
+  transform: translate(50%, -50%) !important;
+  right: 0 !important;
 }
 @media screen and (max-width: 640px) {
   .splide__arrow--prev {
     right: initial !important;
     left: 0rem !important;
-    transform: translate(-50%, -50%) !important;
+    transform: translateY(-50%) !important;
   }
   .splide__arrow--next {
+    transform: translateY(-50%) !important;
     left: initial !important;
     right: 0rem !important;
-    transform: translate(50%, -50%) !important;
   }
 }
