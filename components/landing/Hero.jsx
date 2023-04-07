@@ -18,8 +18,7 @@ const Hero = () => {
             for your startup
           </h1>
           <p style={styles.textShadowBold} className="text-white font-semibold leading-[1.3] text-base max-w-[340px] text-shadow-lg">
-            We build custom software applications to turn your startup idea into a
-            reality.
+            We build custom software applications to turn your startup ideas into a reality.
           </p>
           <a href="#book" className="bookBtn">
             Book a call

@@ -57,20 +57,17 @@ const Journey = () => {
               />
             </svg>
           </div>
-          <div className="flex xl:m-0 mb-5 justify-start items-center flex-col w-full gap-5 text-center">
+          <div className="flex justify-start items-center flex-col w-full gap-10 text-center">
             <div className="w-full h-auto  flex justify-center items-start">
               <Image style={{ maxWidth: '35%' }} src={"/dev2.png"} alt="...dev" width={1000} height={1000} />
             </div>
             <div>
               <p className="text-blue text-lg sm:text-[1.2rem] font-bold">
-                Book initial call
+                Book initial call (30min)
               </p>
-              <p className="text-blue text-lg -mb-6 sm:text-[1.2rem] font-normal">
-                Our first meeting
+              <p className="text-blue text-lg sm:text-[1.2rem] font-normal">
+                Understanding your goals
               </p>
-            </div>
-            <div className="xl:hidden block self-center justify-self-center">
-
             </div>
           </div>
           <div className="flex justify-start items-center flex-col w-full gap-5 text-center">
@@ -79,10 +76,10 @@ const Journey = () => {
             </div>
             <div>
               <p className="text-blue text-lg sm:text-[1.2rem] font-bold ">
-                Define my Product
+                Technical call (2hr)
               </p>
               <p className="text-blue text-lg sm:text-[1.2rem] font-normal">
-                Your product{"'"}s features
+                Polishing your product{"'"}s features
               </p>
             </div>
           </div>
@@ -96,7 +93,7 @@ const Journey = () => {
                 Recieve The Roadmap
               </p>
               <p className="text-blue text-lg sm:text-[1.2rem] font-normal">
-                Sprints & Budget
+                Time & Budget for the project
               </p>
             </div>
           </div>
@@ -109,7 +106,7 @@ const Journey = () => {
                 Sprints Reviews
               </p>
               <p className="text-blue text-lg sm:text-[1.2rem] font-normal">
-                Monthly progress
+                Monthly progress calls
               </p>
             </div>
           </div>
@@ -122,7 +119,7 @@ const Journey = () => {
                 Project delivery
               </p>
               <p className="text-blue text-lg sm:text-[1.2rem] font-normal">
-                Ready to Launch
+                Final product
               </p>
             </div>
           </div>
