@@ -18,18 +18,18 @@ const Idea = () => {
         </div>
         <div className="flex justify-center xl:justify-between items-center gap-1 w-90">
           <div className="lg:block hidden">
-            <Image style={{ maxWidth: '80%' }} src={"/idea-img.png"} width={350} height={340} alt="...." />
+            <Image style={{ maxWidth: '80%' }} src={"/bicycle.svg"} width={350} height={340} alt="...." />
           </div>
           <div className="lg:block hidden">
-            <Image style={{ maxWidth: '80%' }} src={"/idea-img.png"} width={350} height={340} alt="...." />
+            <Image style={{ maxWidth: '80%' }} src={"/motorcycle.svg"} width={350} height={340} alt="...." />
           </div>
           <div className="lg:block hidden">
-            <Image style={{ maxWidth: '80%' }} src={"/idea-img.png"} width={350} height={340} alt="...." />
+            <Image style={{ maxWidth: '80%' }} src={"/car.svg"} width={350} height={340} alt="...." />
           </div>
         </div>
         <div className="flex justify-start items-start flex-col gap-5 px-10 md:px-20 lg:px-44">
           <p className="text-base sm:text-lg  font-medium text-white">
-            <strong>Creating a startup</strong> is a journey full of challenges. You have this <strong>amazing idea</strong>, that will change people{"'"}s lives, but you don{"'"}t the first thing about code.
+            <strong>Creating a startup</strong> is a journey full of challenges. You have this <strong>amazing idea</strong>, that will change people{"'"}s lives, but you don{"'"}t know the first thing about code.
           </p>
           <p className="text-base sm:text-lg  font-medium text-white">
             That{"'"}s why we created <strong>Sprints</strong>.

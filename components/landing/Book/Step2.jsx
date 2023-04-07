@@ -53,7 +53,7 @@ const Step2 = ({ setStep }) => {
               handler={inputHandler}
               val={formData.tempEmail}
               name="tempEmail"
-              label="Email of guest"
+              label="Email of the guest"
               ico="/email-ico.png"
             />
             <button
