@@ -28,7 +28,7 @@ const Step2 = ({ setStep }) => {
       <h3 className="text-md text-center sm:text-[1.2rem] mb-5 font-normal text-blue">
         <strong>Friday,</strong> March 31st 16:00 pm (Uruguay)
       </h3>
-      <div className="flex justify-start flex-col items-center gap-5 w-full max-w-[550px]">
+      <div style={styles.form} className="flex justify-start flex-col items-center gap-5 w-full">
         <FloatInput
           handler={inputHandler}
           val={formData.firstName}
@@ -166,3 +166,8 @@ const FloatInput = ({ ico, val, name, handler, label }) => {
     </div>
   );
 };
+
+
+const styles = {
+  form: { width: window.innerHeight > window.innerWidth ? '100%' : '80%' }
+}
