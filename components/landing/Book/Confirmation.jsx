@@ -2,15 +2,16 @@ import Image from "next/image";
 import { useEffect } from "react";
 
 const Confirmation = ({ setStep }) => {
-  useEffect(() => {
-    const timeout = setTimeout(() => {
-      setStep(1);
-    }, 5000);
+  // Return to booking
+  // useEffect(() => {
+  //   const timeout = setTimeout(() => {
+  //     setStep(1);
+  //   }, 5000);
 
-    return () => {
-      clearTimeout(timeout);
-    };
-  }, []);
+  //   return () => {
+  //     clearTimeout(timeout);
+  //   };
+  // }, []);
 
   return (
     <div className="absolute top-0 gap-5 bg-white z-40 left-0 w-full text-center h-full flex justify-center items-center flex-col">
