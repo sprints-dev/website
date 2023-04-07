@@ -78,7 +78,7 @@ const Software = () => {
         </div>
         <div className="flex justify-start items-center gap-3 sm:gap-8 flex-col sm:mt-4">
           <p className="text-white text-base sm:text-lg max-w-[1000px] text-center font-medium">
-          We develop <strong>MVP's</strong> in phases, we call
+          We develop <strong>MVP{"'"}s</strong> in phases, we call
             <strong>
             {" "}{'"'}sprints{'"'}
             </strong>
@@ -90,7 +90,7 @@ const Software = () => {
             {" "}afterwards.
           </p>
           <p className="text-white text-base sm:text-lg  max-w-[1000px] text-center font-medium">
-           Once the product is finished, we'll have a final product delivery review.
+           Once the product is finished, we{"'"}ll have a final product delivery review.
           </p>
           <p className="text-white text-base sm:text-lg  max-w-[1000px] text-center font-medium">
             This will allow us to match the vision you have, with the delivered product.
