@@ -167,7 +167,6 @@ const FloatInput = ({ ico, val, name, handler, label }) => {
   );
 };
 
-
 const styles = {
-  form: { width: window.innerHeight > window.innerWidth ? '100%' : '80%' }
+  form: { width:'100%' }
 }
