@@ -1,3 +1,4 @@
+
 import Image from "next/image";
 
 const Software = () => {
@@ -76,23 +77,23 @@ const Software = () => {
             </p>
           </div>
         </div>
-        <div className="flex justify-start items-center gap-3 sm:gap-8 flex-col sm:mt-4">
-          <p className="text-white text-base sm:text-lg max-w-[1000px] text-center font-medium">
+        <div className="flex px-5 justify-start items-center gap-3 sm:gap-8 flex-col sm:mt-4">
+          <p className="text-white text-base sm:text-lg max-w-[1000px] text-left font-medium">
           We develop <strong>MVP{"'"}s</strong> in phases, we call
             <strong>
             {" "}{'"'}sprints{'"'}
             </strong>
             .
           </p>
-          <p className="text-white text-base sm:text-lg  max-w-[1000px] text-center font-medium">
+          <p className="text-white text-base sm:text-lg  max-w-[1000px] text-left font-medium">
             Each sprint lasts <strong>4 weeks</strong>, with a{" "}
             <strong>sprint review</strong>
             {" "}afterwards.
           </p>
-          <p className="text-white text-base sm:text-lg  max-w-[1000px] text-center font-medium">
+          <p className="text-white text-base sm:text-lg  max-w-[1000px] text-left font-medium">
            Once the product is finished, we{"'"}ll have a final <strong>product delivery</strong> review.
           </p>
-          <p className="text-white text-base sm:text-lg  max-w-[1000px] text-center font-medium">
+          <p className="text-white text-base sm:text-lg  max-w-[1000px] text-left font-medium">
             This will allow us to match the vision you have, with the delivered product.
           </p>
         </div>
