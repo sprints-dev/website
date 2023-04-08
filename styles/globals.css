@@ -12,7 +12,7 @@
     @apply flex justify-start items-center flex-col w-full;
   }
   .contain {
-    @apply flex w-[95%] max-w-[1550px];
+    @apply flex w-[90%] sm:w-[95%] max-w-[1550px];
   }
   .bookBtn {
     @apply grid bg-red  text-white font-bold text-base mt-5 rounded-[14px] px-7 py-4 sm:px-10 h-[60px]  place-items-center border-2 border-solid hover:border-white border-transparent  transition-all duration-300;
@@ -46,13 +46,29 @@ html {
   transform: translate(50%, -50%) !important;
   right: 0 !important;
 }
+.journey-slide .splide__pagination {
+  bottom: 0;
+}
+.journey-slide .splide__pagination__page {
+  background-color: transparent;
+  border: 2px solid #263254;
+  width: 10px;
+  opacity: 1;
+  height: 10px;
+}
+.journey-slide .splide__pagination__page.is-active {
+  background-color: #263254;
+  transform: none;
+}
 @media screen and (max-width: 640px) {
   .splide__arrow--prev {
     right: initial !important;
     left: 0rem !important;
     transform: translateY(-50%) !important;
+    top: 96% !important;
   }
   .splide__arrow--next {
+    top: 96% !important;
     transform: translateY(-50%) !important;
     left: initial !important;
     right: 0rem !important;
@@ -60,4 +76,8 @@ html {
 }
 .shadow-selectedTime {
   box-shadow: "0px 2px 3px rgba(48,71,141,1)";
+}
+
+img {
+z-index: 8
 }

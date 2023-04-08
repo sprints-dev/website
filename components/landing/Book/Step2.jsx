@@ -28,13 +28,20 @@ const Step2 = ({ setStep }) => {
       <h3 className="text-md text-center sm:text-[1.2rem] mb-5 font-normal text-blue">
         <strong>Friday,</strong> March 31st 16:00 pm (Uruguay)
       </h3>
-      <div className="flex justify-start flex-col items-center gap-5 w-full max-w-[550px]">
+      <div style={styles.form} className="flex justify-start flex-col items-center gap-5 w-full">
         <FloatInput
           handler={inputHandler}
           val={formData.firstName}
           name="firstName"
           label="First Name"
           ico="/name-ico.png"
+        />
+        <FloatInput
+          handler={inputHandler}
+          val={formData.email}
+          name="email"
+          label="Email"
+          ico="/email-ico.png"
         />
         {addingPeople ? (
           <form
@@ -58,13 +65,13 @@ const Step2 = ({ setStep }) => {
             />
             <button
               type="submit"
-              className="bg-slate min-w-[80px] rounded-lg h-full  -opacity-[0.08] flex justify-center items-center"
+              className="bg-slate bg-opacity-[0.08] min-w-[80px] rounded-lg h-full  -opacity-[0.08] flex justify-center items-center"
             >
               <Image src={"/enter.png"} alt="..." width={40} height={40} />
             </button>
           </form>
         ) : formData.people.length === 0 ? (
-          <div style={{ width: '81%' }} className="flex justify-start items-center w-full h-[60px] border-dashed border-[5px] border-opacity-[0.08] border-[#707070] sm:h-[54px] bg-transparent bg-opacity-[0.08] rounded-lg px-5 py-3 gap-5">
+          <div className="flex justify-start items-center w-full h-[60px] border-dashed border-[5px] border-opacity-[0.08] border-[#707070] sm:h-[54px] bg-transparent bg-opacity-[0.08] rounded-lg px-5 py-3 gap-5">
             <Image src={"/add.png"} alt="..." width={30} height={30} />
             <div className="bg-gray w-[1.2px] h-full"></div>
             <button
@@ -77,14 +84,14 @@ const Step2 = ({ setStep }) => {
             </button>
           </div>
         ) : (
-          <div style={{ width: '81%' }} className="flex flex-wrap justify-start items-center w-full gap-4">
+          <div className="flex flex-wrap justify-start items-center w-full gap-4">
             {formData.people.map((elem, idx) => {
               return (
                 <div
                   key={idx + "people"}
                   className="rounded-lg bg-slate bg-opacity-[0.08] px-5 sm:h-[54px] h-[60px]  flex justify-center items-center"
                 >
-                  <Image src={"/id.png"} alt="..." width={30} height={30} />
+                  <Image src={"/id.png"} alt="..." width={25} height={25} />
                 </div>
               );
             })}
@@ -92,18 +99,10 @@ const Step2 = ({ setStep }) => {
               onClick={() => setAddingPeople(true)}
               className="flex cursor-pointer justify-start items-center  h-[60px] border-dashed border-[5px] border-opacity-[0.08] border-[#707070] sm:h-[54px] bg-transparent  rounded-lg px-5  gap-5"
             >
-              <Image src={"/add.png"} alt="..." width={30} height={30} />
+              <Image src={"/add.png"} alt="..." width={25} height={25} />
             </div>
           </div>
         )}
-
-        <FloatInput
-          handler={inputHandler}
-          val={formData.email}
-          name="email"
-          label="Email"
-          ico="/email-ico.png"
-        />
         <FloatInput
           handler={inputHandler}
           val={formData.website}
@@ -111,7 +110,10 @@ const Step2 = ({ setStep }) => {
           label="Website or Linkedin"
           ico="/web-ico.png"
         />
-        <div style={{ width: '80%' }} className="flex justify-start  mt-2 w-full items-center gap-5">
+        <div
+          style={{ width: "95%" }}
+          className="flex justify-start mt-2 w-full items-center gap-5"
+        >
           <input type="checkbox" id="terms" className="w-4 aspect-square" />
           <label
             htmlFor="terms"
@@ -142,7 +144,7 @@ export default Step2;
 
 const FloatInput = ({ ico, val, name, handler, label }) => {
   return (
-    <div style={{ width: '80%' }} className="flex justify-start items-center w-full h-[60px] sm:h-[54px] bg-slate bg-opacity-[0.08] rounded-lg px-5 py-3 gap-5">
+    <div className="flex justify-start items-center w-full h-[60px] sm:h-[54px] bg-slate bg-opacity-[0.08] rounded-lg px-5 py-3 gap-5">
       <Image src={ico} alt="..." width={30} height={30} />
       <div className="bg-gray w-[1.2px] h-full"></div>
       <div className="relative w-full h-full">
@@ -152,10 +154,10 @@ const FloatInput = ({ ico, val, name, handler, label }) => {
           value={val}
           onChange={handler}
           type="text"
-          className="w-full peer h-full border-none outline-none bg-transparent text-cyan text-lg font-medium"
+          className="w-full peer h-full border-none outline-none bg-transparent text-cyan text-base font-medium"
         />
         <p
-          className={`text-cyan  peer-focus:top-1 peer-placeholder-shown:text-md  peer-placeholder-shown:top-1/2 transition-all duration-500 peer-focus:text-xs top-1 text-xs font-medium absolute left-0 pointer-events-none  -translate-y-1/2`}
+          className={`text-cyan  peer-focus:top-0 peer-placeholder-shown:text-base  peer-placeholder-shown:top-1/2 transition-all duration-500 peer-focus:text-xs top-0 text-xs font-medium absolute left-0 pointer-events-none  -translate-y-1/2`}
         >
           {label}
         </p>
@@ -163,3 +165,7 @@ const FloatInput = ({ ico, val, name, handler, label }) => {
     </div>
   );
 };
+
+const styles = {
+  form: { width: '100%' }
+}

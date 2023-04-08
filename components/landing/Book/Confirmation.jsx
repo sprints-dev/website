@@ -19,7 +19,7 @@ const Confirmation = ({ setStep }) => {
         <Image src={"/check.png"} alt="...." fill />
       </div>
       <h3 className="text-[1.2rem] font-bold text-blue">Booking Confirmed!</h3>
-      <h3 className="text-lg text-center sm:text-[1.2rem] mb-5 font-normal text-blue">
+      <h3 className="text-lg text-center sm:text-[1.2rem] mb-5 font-normal text-blue px-3">
         <strong>Friday,</strong> March 31st 16:00 pm (Uruguay)
       </h3>
     </div>

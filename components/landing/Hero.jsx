@@ -2,7 +2,7 @@ import Image from "next/image";
 
 const Hero = () => {
   return (
-    <div className="wrapper relative isolate">
+    <div className="wrapper relative isolate z-20">
       <div className=" min-h-[650px] overflow-hidden w-full flex justify-center items-center relative isolate">
         <video
           src="/hero_video.mp4"
@@ -17,7 +17,7 @@ const Hero = () => {
             Software MVP Development <br />
             for your startup
           </h1>
-          <p style={styles.textShadowBold} className="text-white font-semibold leading-[1.3] text-base max-w-[340px] text-shadow-lg">
+          <p style={styles.textShadowBold} className="text-white font-semibold leading-[1.3] text-base max-w-[250px] text-shadow-lg">
             We build custom software applications to turn your startup ideas into a reality.
           </p>
           <a href="#book" className="bookBtn">
