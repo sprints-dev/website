@@ -89,7 +89,7 @@ const Journey = () => {
                     Technical call (2hr)
                   </p>
                   <p className="text-blue text-lg sm:text-[1.2rem] font-normal">
-                    Polishing your product's features
+                    Polishing your product{"'"}s features
                   </p>
                 </div>
               </div>
