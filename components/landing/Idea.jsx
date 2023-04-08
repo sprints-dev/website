@@ -7,9 +7,9 @@ const Idea = () => {
       id="idea"
       className="wrapper  sm:mt-[90px] xl:mt-[150px]"
     >
-      <div className="contain flex-col justify-center items-center gap-[50px] xl:gap-[100px] mt-10 px-10">
+      <div className="contain flex-col justify-center items-center gap-[50px] xl:gap-[100px] mt-10 px-5">
         <div className="text-center">
-          <h2 className="text-[35px] sm:text-[40px] lg:text-[50px]  leading-[1.2] font-black text-white">
+          <h2 className="text-[32px] sm:text-[40px] lg:text-[50px]  leading-[1.2] font-black text-white">
             Idea to product
           </h2>
           <p className="text-base sm:text-xl  text-white font-medium">
@@ -26,8 +26,11 @@ const Idea = () => {
           <div className="lg:block hidden">
             <Image style={{ maxWidth: '80%' }} src={"/car.svg"} width={350} height={340} alt="...." />
           </div>
+          <div className="lg:hidden block">
+            <Image src={"/light-bulb.svg"} width={350} height={340} alt="...." />
+          </div>
         </div>
-        <div className="flex justify-start items-start flex-col gap-5 px-10 md:px-20 lg:px-44">
+        <div className="flex justify-start items-start flex-col gap-5 md:px-20 lg:px-44">
           <p className="text-base sm:text-lg  font-medium text-white">
             <strong>Creating a startup</strong> is a journey full of challenges. You have this <strong>amazing idea</strong>, that will change people{"'"}s lives, but you don{"'"}t know the first thing about code.
           </p>

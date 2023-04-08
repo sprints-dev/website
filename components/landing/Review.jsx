@@ -58,7 +58,7 @@ const ReviewBox = ({
           <p className="text-base sm:text-xl lg:text-[1.2rem] max-w-[90%] sm:max-w-[1250px] font-normal italic text-blue">
             {client_review}
           </p>
-          <h4 className="text-blue md:self-end text-xl sm:text-[1.2rem] font-semibold italic">
+          <h4 className="text-blue md:self-end text-lg sm:text-[1rem] font-semibold italic mt-5">
             {review_writer}
           </h4>
         </div>

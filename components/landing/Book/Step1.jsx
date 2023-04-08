@@ -43,13 +43,12 @@ const Step1 = ({ setStep }) => {
     },
   ];
   return (
-    <div className="flex justify-start items-center flex-col gap-5 w-full">
+    <div className="flex justify-start items-center flex-col gap-3 w-full">
       <h3 className="text-lg text-center sm:text-[1.2rem] mb-5 font-normal text-blue">
         <strong>Select the date and time</strong> for our inital call
       </h3>
       <div
-        style={{ width: "92%" }}
-        className="grid grid-cols-[auto__1fr__1fr__1fr__1fr__1fr__auto] sm:grid-cols-7 mt-2 gap-5 place-items-center w-full"
+        className="grid grid-cols-[auto__1fr__1fr__1fr__1fr__1fr__auto] sm:grid-cols-7 mt-2 place-items-center w-full"
       >
         <svg
           xmlns="http://www.w3.org/2000/svg"
@@ -134,7 +133,7 @@ const Step1 = ({ setStep }) => {
       </div>
       <div
         style={{ width: "90%" }}
-        className="grid sm:max-h-none max-h-[40vh] overflow-y-auto grid-cols-2 sm:grid-cols-3 mt-8  w-full gap-8"
+        className="grid sm:max-h-none max-h-[40vh] overflow-y-auto grid-cols-2 sm:grid-cols-3 mt-8 w-full gap-6 border-black border-x border-y border-solid px-3 py-3 rounded-xl"
       >
         {DummyTime.map((elem, idx) => {
           return (
@@ -142,17 +141,15 @@ const Step1 = ({ setStep }) => {
               style={{ height: "9vh", justifySelf: "center" }}
               key={elem.time + idx}
               onClick={() => setSelectedTime(elem.time)}
-              className={`w-full bg-blue  hover:-translate-y-2 transition-all duration-300 text-white text-md font-medium ${
-                elem.booked
-                  ? "opacity-30 pointer-events-none cursor-default"
-                  : "opacity-100"
-              } ${
-                selectedTime === elem.time && !elem.booked
-                  ? "shadow-selectedTime"
+              className={`w-full bg-blue  hover:-translate-y-2 transition-all duration-300 text-white text-md font-medium ${elem.booked
+                ? "opacity-30 pointer-events-none cursor-default"
+                : "opacity-100"
+                } ${selectedTime === elem.time && !elem.booked
+                  ? "bg-white border-2 border-blue border-solid"
                   : "shadow-none"
-              } h-[80px] rounded-lg`}
+                } h-[80px] rounded-lg`}
             >
-              {elem.booked ? "Booked" : elem.time}
+              <span className={selectedTime === elem.time && !elem.booked && "text-blue"}>{elem.booked ? "Booked" : elem.time}</span>
             </button>
           );
         })}

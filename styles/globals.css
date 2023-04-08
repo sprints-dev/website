@@ -77,3 +77,7 @@ html {
 .shadow-selectedTime {
   box-shadow: "0px 2px 3px rgba(48,71,141,1)";
 }
+
+img {
+z-index: 8
+}
