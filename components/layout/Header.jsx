@@ -62,7 +62,7 @@ const Header = () => {
               activeClass="bg-activeClass"
               className="lg:block hidden px-5 transition-all hover:bg-activeClass duration-500 cursor-pointer py-2 rounded-xl text-white font-semibold text-base 2xl:text-lg"
             >
-              Development Journey
+              Your Journey
             </Hashlink>
             <Hashlink
               offset={-110}

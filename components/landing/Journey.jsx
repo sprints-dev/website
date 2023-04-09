@@ -5,14 +5,14 @@ import "@splidejs/react-splide/css";
 const Journey = () => {
   return (
     <div
-      data-name="Development Journey"
+      data-name="Your Journey"
       id="journey"
       className="bg-white wrapper py-14 md:py-[160px] mt-16 sm:mt-[90px] xl:mt-[180px]"
     >
       <div className="contain flex-col justify-center items-center xl:gap-[70px]">
         <div className="text-center flex justify-center items-center flex-col">
           <h2 className="text-[35px] sm:text-[40px] lg:text-[50px] leading-[1.2] font-black text-blue">
-            Development Journey
+            Your Journey
           </h2>
           <p className="text-base sm:text-xl  text-blue font-medium">
             The When

@@ -45,7 +45,7 @@ const Idea = () => {
             that <strong>same success.</strong>
           </p>
           <p className="text-base sm:text-lg  font-medium text-white">
-            Here is how….
+            Here is how.
           </p>
         </div>
       </div>
