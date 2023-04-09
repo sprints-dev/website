@@ -3,7 +3,8 @@ import { useEffect } from "react";
 
 const Hero = () => {
   useEffect(()=>{
-    document.getElementById('hero-video').play().removeAttribute("controls");
+    document.getElementById('hero-video').play();
+    // .removeAttribute("controls");
   },[]);
 
   return (
