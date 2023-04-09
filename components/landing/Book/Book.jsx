@@ -39,7 +39,7 @@ const Book = () => {
               Features call ( Initial call required )
             </h3>
             <p className="text-md text-blue">
-              <strong className="italic">up to 2 hours - </strong> In this
+              <strong className="italic">Up to 2 hours - </strong> In this
               second call we dive deep into your product{"'"}s features. This
               way we can have certainty on the time and budget needed to build
               your software solution.
