@@ -6,10 +6,21 @@ import Software from "@/components/landing/Software";
 import Journey from "@/components/landing/Journey";
 import Review from "@/components/landing/Review";
 import Book from "@/components/landing/Book/Book";
+import { serverSideTranslations } from 'next-i18next/serverSideTranslations';
+import { useTranslation } from "next-i18next";
 
 const raleway = Raleway({ subsets: ["latin"] });
 
-export default function Home() {
+export async function getStaticProps({ locale }) {
+  return {
+    props: {
+      ...(await serverSideTranslations(locale, ['home']))
+    }
+  }
+}
+
+export default function Home({ i18n, locale }) {
+  const { t } = useTranslation()
   return (
     <div style={styles}>
       <style jsx global>
@@ -43,7 +54,7 @@ export default function Home() {
       </div>
       <div className="z-11 text-center py-[70px] md:py-[100px] flex justify-center items-center flex-col">
         <h2 className="text-[35px] sm:text-[40px] leading-[1.2] font-black text-white">
-          Book a Call
+          {t('home:book_a_call')}
         </h2>
         <p className="text-base sm:text-xl  text-white font-medium">
           Let{"'"}s talk
