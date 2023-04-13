@@ -1,9 +1,10 @@
 import Footer from "@/components/layout/Footer";
 import Header from "@/components/layout/Header";
 import "@/styles/globals.css";
-import Script from 'next/script'
+import Script from 'next/script';
+import { appWithTranslation } from "next-i18next";
 
-export default function App({ Component, pageProps }) {
+function App({ Component, pageProps }) {
   return (
     <>
       <Script strategy="afterInteractive" src="https://www.googletagmanager.com/gtag/js?id=G-TLPBQHCZ0Z" />
@@ -27,3 +28,5 @@ export default function App({ Component, pageProps }) {
     </>
   );
 }
+
+export default appWithTranslation(App)
