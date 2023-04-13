@@ -20,7 +20,7 @@ const Hero = () => {
           loop
           className="hidden lg:block w-full h-full absolute left-0 top-0 z-10 object-cover"
         ></video>
-        <Image src={"/hero-img.jpg"} priority width={2000} height={2000} className="block w-full h-full absolute left-0 top-0 -z-10 object-cover" />
+        <Image src={"/hero-img.jpg"} priority width={2000} height={2000} className="block w-full h-full absolute left-0 top-0 -z-10 object-cover" alt="."/>
         <div className="z-10 contain h-auto sm:h-screen min-h-[650px] gap-5 py-14 justify-center items-center flex-col text-center">
           <h1 style={styles.textShadowBold} className="text-white text-[35px] sm:text-[40px] lg:text-[50px] leading-[1.2] font-black text-shadow-lg">
             Software MVP Development <br />

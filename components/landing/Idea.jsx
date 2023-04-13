@@ -32,7 +32,7 @@ const Idea = () => {
         </div>
         <div className="flex justify-start items-start flex-col gap-5 md:px-20 lg:px-44">
           <p className="text-base sm:text-lg  font-medium text-white">
-            <strong>Creating a startup</strong> is a journey full of challenges. You have this <strong>amazing idea</strong> that will change people{"'"}s lives, but you don't know anything about software.
+            <strong>Creating a startup</strong> is a journey full of challenges. You have this <strong>amazing idea</strong> that will change people{"'"}s lives, but you don{"'"}t know anything about software.
           </p>
           <p className="text-base sm:text-lg  font-medium text-white">
             That{"'"}s why we created <strong>Sprints</strong>.
