@@ -54,3 +54,4 @@ const Idea = () => {
 };
 
 export default Idea;
+
