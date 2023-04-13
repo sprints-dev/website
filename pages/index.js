@@ -41,7 +41,7 @@ export default function Home({ i18n, locale }) {
       <Idea />
       <Software />
       <Journey />
-      <div data-name="Clients Reviews" id="reviews" className="w-full">
+      {/* <div data-name="Clients Reviews" id="reviews" className="w-full">
         <div className="text-center py-[70px] md:py-[100px] flex justify-center items-center flex-col">
           <h2 className="text-[35px] sm:text-[40px]  leading-[1.2] font-black text-white">
             Clients Reviews
@@ -51,7 +51,7 @@ export default function Home({ i18n, locale }) {
           </p>
         </div>
         <Review />
-      </div>
+      </div> */}
       <div className="z-11 text-center py-[70px] md:py-[100px] flex justify-center items-center flex-col">
         <h2 className="text-[35px] sm:text-[40px] leading-[1.2] font-black text-white">
           {t('home:book_a_call')}
