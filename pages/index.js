@@ -8,6 +8,9 @@ import Review from "@/components/landing/Review";
 import Book from "@/components/landing/Book/Book";
 import { serverSideTranslations } from 'next-i18next/serverSideTranslations';
 import { useTranslation } from "next-i18next";
+import axios from 'axios';
+import { useEffect } from "react";
+
 
 const raleway = Raleway({ subsets: ["latin"] });
 

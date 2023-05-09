@@ -1,7 +1,8 @@
-import { useState } from "react";
+import { useEffect, useState } from "react";
 import Step1 from "./Step1";
 import Step2 from "./Step2";
 import Confirmation from "./Confirmation";
+import CalendlyWidget from "@/components/calendlyWidget";
 
 const Book = () => {
   const [step, setStep] = useState(1);
@@ -10,7 +11,7 @@ const Book = () => {
       id="book"
       className="flex w-full justify-center items-center bg-white  relative min-h-[650px] h-auto md:py-0 py-12 md:h-screen z-20 sm:px-10 md:px-20"
     >
-      {step === 3 && <Confirmation setStep={setStep} />}
+      {/* {step === 3 && <Confirmation setStep={setStep} />} */}
       <div className="contain gap-10 justify-between items-stretch h-4/5">
         <div className="hidden lg:flex justify-start items-start flex-col gap-12 w-full">
           <h3 className="text-blue font-bold text-[1.2rem]">What to Expect</h3>
@@ -47,8 +48,12 @@ const Book = () => {
           </div>
         </div>
         <div className="w-[2px] lg:block hidden bg-blue"></div>
-        {step === 1 && <Step1 setStep={setStep} />}
-        {step === 2 && <Step2 setStep={setStep} />}
+        <div className="w-full">
+          <CalendlyWidget />
+        </div>
+
+        {/* {step === 1 && <Step1 setStep={setStep} />}
+        {step === 2 && <Step2 setStep={setStep} />} */}
       </div>
     </div>
   );

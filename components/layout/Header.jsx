@@ -12,6 +12,7 @@ const Header = () => {
       document.querySelector("#reviews"),
     ];
     if (window.innerWidth > 1024) return;
+    if(typeof !window) return;
     window.addEventListener("scroll", () => {
       sections.forEach(function (event) {
         if (event.getBoundingClientRect().top < 90) {
@@ -28,7 +29,7 @@ const Header = () => {
     >
       <div className="contain justify-between h-[90px]  lg:h-[14vh] items-center gap-4">
         <div className="flex justify-between w-full  sm:justify-start items-center gap-3 xl:gap-5 2xl:gap-8">
-          <Image src={"/logo.png"} width={70} height={70} alt="logo" />
+          <Image src={"/logo.png"} width={110} height={110} alt="logo" />
           <nav className="flex sm:w-full justify-center items-center gap-5 2xl:gap-3">
             <p className="text-white lg:hidden block px-5 transition-all hover:bg-activeClass duration-500 cursor-pointer py-2 rounded-xl font-semibold text-lg sm:text-base 2xl:text-lg">
               {activeLink}
@@ -64,7 +65,7 @@ const Header = () => {
             >
               Your Journey
             </Hashlink>
-            <Hashlink
+            {/* <Hashlink
               offset={-110}
               duration={500}
               spy={true}
@@ -73,7 +74,7 @@ const Header = () => {
               className="lg:block hidden px-5 transition-all hover:bg-activeClass duration-500 cursor-pointer py-2 rounded-xl text-white font-semibold text-base 2xl:text-lg"
             >
               Clients Reviews
-            </Hashlink>
+            </Hashlink> */}
           </nav>
         </div>
         <a

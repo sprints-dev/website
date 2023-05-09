@@ -2,13 +2,13 @@ import Image from "next/image";
 
 const Footer = () => {
   return (
-    <div style={{ width: '98%' }} className="wrapper py-14">
+    <div style={{ width: '98%', zIndex: 11 }} className="wrapper py-14 bg-blue relative">
       <div style={{ width: '80%' }} className="contain lg:flex-row flex-col justify-between items-stretch gap-7">
         <div className="flex justify-start items-center flex-col text-center gap-5">
-          <div className="relative w-[150px] sm:w-[180px] lg:w-[140px]">
+          <div className="relative w-[190px] sm:w-[290px] lg:w-[250px] mb-5 mt-10">
             <Image alt="..." src="/logo-big.png" width={1000} height={1000} />
           </div>
-          <p className="text-md xl:text-lg font-medium text-white">
+          <p className="text-md xl:text-lg font-medium text-blue">
             Copyright © 2023 Sprints LLC - All Rights Reserved
           </p>
         </div>
