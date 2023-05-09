@@ -13,18 +13,10 @@ const CalendlyWidget = () => {
     }, []);
 
     return (
-        <div
-            data-url="https://calendly.com/sprints_dev/initial_call?hide_event_type_details=1&hide_gdpr_banner=1"
-            style={{ width: '100%', height: '80%' }}
-        />
+        <div className="calendly-inline-widget" data-url="https://calendly.com/sprints_dev/initial_call?hide_event_type_details=1&hide_gdpr_banner=1&text_color=263254&primary_color=2F59D0" style={{
+            width: '100%', height: '110%', alignSelf: 'center'
+        }}></div >
     );
-
-    return (
-        <>
-            <div data-url="https://calendly.com/sprints_dev/initial_call?hide_event_type_details=1&hide_gdpr_banner=1"></div>
-            <script type="text/javascript" src="https://assets.calendly.com/assets/external/widget.js" async></script>
-        </>
-    )
 };
 
 export default CalendlyWidget;

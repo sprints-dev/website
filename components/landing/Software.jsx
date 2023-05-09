@@ -13,7 +13,7 @@ const Software = () => {
           <h2 className="text-[35px] sm:text-[40px] lg:text-[50px]  leading-[1.2] font-black text-white">
             Software Sprints
           </h2>
-          <p className="text-base sm:text-xl  text-white font-medium">
+          <p className="text-base sm:text-xl mt-4  text-white font-medium">
             The How
           </p>
         </div>
@@ -79,22 +79,22 @@ const Software = () => {
         </div>
         <div className="flex px-5 justify-start items-center gap-3 sm:gap-8 flex-col sm:mt-4">
           <p className="text-white text-base sm:text-lg max-w-[1000px] text-left font-medium">
-          We develop <strong>MVP{"'"}s</strong> in phases we call
+          The application is delivered in phases we call
             <strong>
             {" "}{'"'}sprints{'"'}
             </strong>
             .
           </p>
-          <p className="text-white text-base sm:text-lg  max-w-[1000px] text-left font-medium">
-            Each sprint lasts <strong>4 weeks</strong>, with a{" "}
-            <strong>sprint review</strong>
+          <p className="text-white text-base sm:text-lg mt-2  max-w-[1000px] text-center font-medium">
+            Each sprint lasts <strong>4 weeks</strong>, with a  
+            <strong> sprint review</strong>
             {" "}afterwards.
           </p>
-          <p className="text-white text-base sm:text-lg  max-w-[1000px] text-left font-medium">
-           Once the product is finished, we{"'"}ll have a final <strong>product delivery</strong> review.
+          <p className="text-white text-base sm:text-lg mt-2 max-w-[1000px] text-left font-medium">
+           Once we've finished the app, we{"'"}ll have a final <strong>product delivery</strong>.
           </p>
-          <p className="text-white text-base sm:text-lg  max-w-[1000px] text-left font-medium">
-            This will allow us to match the vision you have, with the delivered product.
+          <p className="text-white text-base sm:text-lg mt-2 max-w-[1000px] text-left font-medium">
+           This way, we make sure the delivered product matches your expectations.
           </p>
         </div>
       </div>

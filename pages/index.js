@@ -10,6 +10,7 @@ import { serverSideTranslations } from 'next-i18next/serverSideTranslations';
 import { useTranslation } from "next-i18next";
 import axios from 'axios';
 import { useEffect } from "react";
+import Offer from "@/components/landing/Offer";
 
 
 const raleway = Raleway({ subsets: ["latin"] });
@@ -43,11 +44,12 @@ export default function Home({ i18n, locale }) {
       <Hero />
       <Idea />
       <Software />
-      <Journey />
+      <Offer/>
+      {/* <Journey /> */}
       {/* <div data-name="Clients Reviews" id="reviews" className="w-full">
         <div className="text-center py-[70px] md:py-[100px] flex justify-center items-center flex-col">
           <h2 className="text-[35px] sm:text-[40px]  leading-[1.2] font-black text-white">
-            Clients Reviews
+            Client's Reviews
           </h2>
           <p className="text-base sm:text-xl  text-white font-medium">
             Satisfied customers

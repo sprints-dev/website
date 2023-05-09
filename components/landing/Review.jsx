@@ -22,11 +22,7 @@ const Review = () => {
             <ReviewBox
               client_logo="/review-ico.png"
               client_name="Tres Cielos"
-              client_review={`"Dont just take our word for it Dont just take our word
-        for it Dont just take our word for it Dont just take our word
-        for it Dont just take our word for it Dont just take our word
-        for it Dont just take our word for it Dont just take our word
-        for it Dont just take our word for it".`}
+              client_review={`"Working with this team was an amazing decision for my business. From the very beginning, the team at Sprints was professional, knowledgeable, and attentive to my startup's specific needs. Their structured approach and frameworks turned my idea into a product in a way I could have not done by myself."`}
               review_writer="Guillermo Vazquez - CEO"
             />
           </SplideSlide>

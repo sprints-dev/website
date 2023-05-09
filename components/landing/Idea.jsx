@@ -12,7 +12,7 @@ const Idea = () => {
           <h2 className="text-[32px] sm:text-[40px] lg:text-[50px]  leading-[1.2] font-black text-white">
             Idea to product
           </h2>
-          <p className="text-base sm:text-xl  text-white font-medium">
+          <p className="text-base sm:text-xl  text-white font-medium mt-4">
             Great ideas deserve to become great products
           </p>
         </div>
@@ -31,22 +31,18 @@ const Idea = () => {
           </div>
         </div>
         <div className="flex justify-start items-start flex-col gap-5 md:px-20 lg:px-44">
-          <p className="text-base sm:text-lg  font-medium text-white">
-            <strong>Creating a startup</strong> is a journey full of challenges. You have this <strong>amazing idea</strong> that will change people{"'"}s lives, and you need someone to make it for you.
-          </p>
-          <p className="text-base sm:text-lg  font-medium text-white">
+          <p className="text-base sm:text-lg text-center font-medium text-white">
+            Creating a startup is challenging. <br />You have this amazing idea, and you need someone to build it.
+            <br /><br/>
             That{"'"}s why we created <strong>Sprints</strong>.
-            <br />We will work with you to understand your <strong>users needs</strong> so we can
-            build a <strong>solid, scalable, and reliable product</strong> for your startup.
+            <br /><br />We became experts at building solid, scalable, and reliable products.
+            <br />This way you can do the thinking, and we can do the work.
           </p>
           {/* <p className="text-base sm:text-lg  font-medium text-white">
             We{"'"}ve seen firsthand the impact that a <strong>well-executed MVP</strong> can
             have on a business, and our team is committed to helping you achieve
             that <strong>same success.</strong>
           </p> */}
-          <p className="text-base sm:text-lg  font-medium text-white">
-            Here is how.
-          </p>
         </div>
       </div>
     </div>

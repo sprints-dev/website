@@ -8,7 +8,7 @@ const Header = () => {
     const sections = [
       document.querySelector("#idea"),
       document.querySelector("#software"),
-      document.querySelector("#journey"),
+      document.querySelector("#offer"),
       document.querySelector("#reviews"),
     ];
     if (window.innerWidth > 1024) return;
@@ -25,12 +25,12 @@ const Header = () => {
   return (
     <header
       style={styles.header}
-      className="wrapper bg-blue fixed top-0 left-0 z-10"
+      className="wrapper bg-blue fixed top-0 left-0 z-20"
     >
       <div className="contain justify-between h-[90px]  lg:h-[14vh] items-center gap-4">
-        <div className="flex justify-between w-full  sm:justify-start items-center gap-3 xl:gap-5 2xl:gap-8">
+        <div className="justify-center flex lg:justify-between w-full sm:justify-start items-center gap-3 xl:gap-5 2xl:gap-8">
           <Image src={"/logo.png"} width={110} height={110} alt="logo" />
-          <nav className="flex sm:w-full justify-center items-center gap-5 2xl:gap-3">
+          <nav className="hidden lg:flex sm:w-full justify-center items-center gap-5 2xl:gap-3">
             <p className="text-white lg:hidden block px-5 transition-all hover:bg-activeClass duration-500 cursor-pointer py-2 rounded-xl font-semibold text-lg sm:text-base 2xl:text-lg">
               {activeLink}
             </p>
@@ -59,11 +59,11 @@ const Header = () => {
               offset={-110}
               duration={500}
               spy={true}
-              to="journey"
+              to="offer"
               activeClass="bg-activeClass"
               className="lg:block hidden px-5 transition-all hover:bg-activeClass duration-500 cursor-pointer py-2 rounded-xl text-white font-semibold text-base 2xl:text-lg"
             >
-              Your Journey
+              12 weeks
             </Hashlink>
             {/* <Hashlink
               offset={-110}
