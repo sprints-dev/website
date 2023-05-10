@@ -91,7 +91,7 @@ const Software = () => {
             {" "}afterwards.
           </p>
           <p className="text-white text-base sm:text-lg mt-2 max-w-[1000px] text-left font-medium">
-           Once we've finished the app, we{"'"}ll have a final <strong>product delivery</strong>.
+           Once we{"'"}ve finished the app, we{"'"}ll have a final <strong>product delivery</strong>.
           </p>
           <p className="text-white text-base sm:text-lg mt-2 max-w-[1000px] text-left font-medium">
            This way, we make sure the delivered product matches your expectations.
