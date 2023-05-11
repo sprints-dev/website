@@ -7,15 +7,15 @@ const Journey = () => {
     <div
       data-name="Your Journey"
       id="journey"
-      className="bg-white wrapper py-14 md:pt-[160px] mt-16 sm:mt-[90px] xl:mt-[180px]"
+      className="bg-white wrapper py-14 md:pt-[160px] sm:mt-[90px] xl:mt-[180px]"
     >
       <div className="contain flex-col justify-center items-center xl:gap-[70px]">
         <div className="text-center flex justify-center items-center flex-col">
           <h2 className="text-[35px] sm:text-[40px] lg:text-[50px] leading-[1.2] font-black text-blue">
-            Your Journey
+           12 Weeks
           </h2>
           <p className="text-base sm:text-xl  text-blue font-medium">
-            The When
+            Your Journey
           </p>
         </div>
         <div className="w-full journey-slide block xl:hidden">
@@ -109,7 +109,7 @@ const Journey = () => {
                 </div>
                 <div>
                   <p className="text-blue text-lg sm:text-[1.2rem] font-bold">
-                    Recieve proposal
+                    Recieve Roadmap
                   </p>
                   <p className="text-blue text-lg sm:text-[1.2rem] font-normal">
                     Time & budget for the project

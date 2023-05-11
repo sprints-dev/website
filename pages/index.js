@@ -36,8 +36,8 @@ export default function Home({ i18n, locale }) {
       </style>
 
       <Head>
-        <title>Sprints | MVP Development</title>
-        <meta name="description" content="Launch your startup idea with Sprints. We provice Top-quality MVP software development solutions.Book a call today and let's turn your vision into a reality!" />
+        <title>Sprints | Software Development for Startups</title>
+        <meta name="description" content="Launch your startup idea with Sprints. We provice Top-quality MVP software development solutions. Book a call today and let's turn your vision into a reality!" />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <link rel="icon" href="/favicon.ico" />
       </Head>
@@ -45,7 +45,7 @@ export default function Home({ i18n, locale }) {
       <Idea />
       <Software />
       <Offer/>
-      {/* <Journey /> */}
+      <Journey />
       {/* <div data-name="Clients Reviews" id="reviews" className="w-full">
         <div className="text-center py-[70px] md:py-[100px] flex justify-center items-center flex-col">
           <h2 className="text-[35px] sm:text-[40px]  leading-[1.2] font-black text-white">

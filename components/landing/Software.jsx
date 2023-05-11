@@ -78,8 +78,8 @@ const Software = () => {
           </div>
         </div>
         <div className="flex px-5 justify-start items-center gap-3 sm:gap-8 flex-col sm:mt-4">
-          <p className="text-white text-base sm:text-lg max-w-[1000px] text-left font-medium">
-          The application is delivered in phases we call
+          <p className="text-white text-base sm:text-lg max-w-[1000px] text-center font-medium">
+          Your startup's application will be delivered in phases we call
             <strong>
             {" "}{'"'}sprints{'"'}
             </strong>
@@ -88,12 +88,12 @@ const Software = () => {
           <p className="text-white text-base sm:text-lg mt-2  max-w-[1000px] text-center font-medium">
             Each sprint lasts <strong>4 weeks</strong>, with a  
             <strong> sprint review</strong>
-            {" "}afterwards.
+            {" "}after each one.
           </p>
-          <p className="text-white text-base sm:text-lg mt-2 max-w-[1000px] text-left font-medium">
+          <p className="text-white text-base sm:text-lg mt-2 max-w-[1000px] text-center font-medium">
            Once we{"'"}ve finished the app, we{"'"}ll have a final <strong>product delivery</strong>.
           </p>
-          <p className="text-white text-base sm:text-lg mt-2 max-w-[1000px] text-left font-medium">
+          <p className="text-white text-base sm:text-lg mt-2 mb-12 max-w-[1000px] text-center font-medium">
            This way, we make sure the delivered product matches your expectations.
           </p>
         </div>

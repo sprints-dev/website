@@ -8,8 +8,9 @@ const Book = () => {
   const [step, setStep] = useState(1);
   return (
     <div
+      style={{ height: '100vh' }}
       id="book"
-      className="flex w-full justify-center items-center bg-white relative min-h-[650px] h-auto md:py-0 py-2 md:h-screen z-20 sm:px-2 md:px-10"
+      className="flex w-full justify-center items-center bg-white relative min-h-[650px]  md:py-0 py-2 md:h-screen z-20 sm:px-2 md:px-10"
     >
       {/* {step === 3 && <Confirmation setStep={setStep} />} */}
       <CalendlyWidget />

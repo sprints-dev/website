@@ -32,11 +32,11 @@ const Idea = () => {
         </div>
         <div className="flex justify-start items-start flex-col gap-5 md:px-20 lg:px-44">
           <p className="text-base sm:text-lg text-center font-medium text-white">
-            Creating a startup is challenging. <br />You have this amazing idea, and you need someone to build it.
+            Creating a <strong>startup</strong> is challenging. <br /><br />You have this amazing <strong>idea</strong>, and you need someone to build it.
             <br /><br/>
             That{"'"}s why we created <strong>Sprints</strong>.
-            <br /><br />We became experts at building solid, scalable, and reliable products.
-            <br />This way you can do the thinking, and we can do the work.
+            <br /><br />We became experts at building <strong>solid</strong>, <strong>scalable</strong>, and <strong>reliable</strong> applications.
+            <br /><br/>This way you can do the <strong>thinking</strong>, and we can do the <strong>work</strong>.
           </p>
           {/* <p className="text-base sm:text-lg  font-medium text-white">
             We{"'"}ve seen firsthand the impact that a <strong>well-executed MVP</strong> can
