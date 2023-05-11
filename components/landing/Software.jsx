@@ -79,7 +79,7 @@ const Software = () => {
         </div>
         <div className="flex px-5 justify-start items-center gap-3 sm:gap-8 flex-col sm:mt-4">
           <p className="text-white text-base sm:text-lg max-w-[1000px] text-center font-medium">
-          Your startup's application will be delivered in phases we call
+          Your startup{"'"}s application will be delivered in phases we call
             <strong>
             {" "}{'"'}sprints{'"'}
             </strong>
